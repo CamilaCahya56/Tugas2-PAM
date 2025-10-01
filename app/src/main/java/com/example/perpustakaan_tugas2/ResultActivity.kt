@@ -42,7 +42,7 @@ fun ResultScreen(username: String, jabatan: String, gender: String, email: Strin
         Image(
             painter = painterResource(id = R.drawable.img),
             contentDescription = "Profile Icon",
-            modifier = Modifier.size(120.dp).padding(bottom = 24.dp)
+            modifier = Modifier.size(160.dp).padding(bottom = 24.dp)
         )
 
         Text(text = "Username: $username", fontSize = 18.sp, modifier = Modifier.padding(bottom = 16.dp))
